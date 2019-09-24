@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="content-conversor">
+            <p>Selecione uma base para que seja convertida</p>
+
+            <input type="radio" name="conversor" value = "binario" id="binario">Binário
+            <input type="radio" name="conversor" value = "decimal" id="decimal">Decimal
+            <input type="radio" name="conversor" value = "hexadecimal" id="hexadecimal">Hexadecimal
+            <input type="radio" name="conversor" value = "octal" id="octal">Octal
+            <input type="text" id="valorA" value="" placeholder="Digite o valor a ser convertido">
+        
+            <div>
+                    <button id="btn-converter">Converter</button>
+            </div>
+        
+
+        <table id="conversor">
+            <thead>
+                <tr>
+                    <td>Binário</td>
+                    <td>Decimal</td>
+                    <td>Hexadecimal</td>
+                    <td>Octal</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
